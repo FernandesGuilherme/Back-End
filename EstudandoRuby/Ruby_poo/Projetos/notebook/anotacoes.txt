@@ -1,0 +1,5 @@
+Active record => Freamwork que traduz escrita ruby para sql ORM
+Migrations =>  subir "Atualizações" para o banco
+
+rake db:create  --> (schemas)
+rake db:migrate --> sobe as informações. 
