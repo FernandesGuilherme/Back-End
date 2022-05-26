@@ -1,0 +1,37 @@
+#VARIÁVEIS
+Não precisa definir tipo, entretanto, se não definir sempre vai ser String
+n1 = input ('Digite seu nome')
+
+
+#LEITURA E IMPRESSÃO DE DADOS
+input('Informe') ==> para definir entrada de dados pelo usuario
+print('mostre na tela') ==> Imprimir mensagem na tela
+print ('mensagem{}'.format{variavel}) .format substitui {} melo conteúdo dentro dele
+print(type(n1)) ==> validar tipo de uma váriável
+
+#TIPOS PRIMITIVOS EM PYTHON
+bool: tipo boleano (True,False)
+int:  tipo inteiro (1 -4 0 9875)
+float: tipo para números flutuantes (7.0 0.076 -15.526)
+str: tipo para caracter ou string ('Olá', "Olá", "")
+
+TUDO QUE VEM VIA TECLADO VEM COMO STRING,
+SE FAZ NECESSÁRIO A CONVERSÃO PARA TRABALHAR
+COM NUMEROS, EX:
+
+n1 = int(input('Digite um número'))
+
+#METODOS
+isnumeric() = valida se uma variável pode ser convertida em número
+isalpha() => Valida se é string ou caracter;
+
+Existem diversos metodos de testes de tipos
+is....
+
+#OPERADORES ARITIMETICOS
++ Adição                ** Potencia
+- Subtração             // Divisão inteira
+* Multiplicação         % Resto da divisão
+/ Divisão
+= Atribuição
+== Igualdade
