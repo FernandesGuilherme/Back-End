@@ -1,5 +1,6 @@
-# Tec_BackEnd
-Diretório destinado para consultas sobre tecnologis Back end
+# BackEnd
+Diretório destinado para consultas sobre tecnologias Back end.
 
--Java
--Ruby 
+- Java
+- Ruby 
+- Python
