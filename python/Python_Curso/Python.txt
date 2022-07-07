@@ -28,6 +28,32 @@ isalpha() => Valida se é string ou caracter;
 Existem diversos metodos de testes de tipos
 is....
 
+funcionalidades para analises de string
+
+frase = 'Curso python'
+frase[3] // Imprime o terceiro caracter
+frase[3:5] // Imprime o terceiro caracter até o 5-1
+frase[:5] // Imprime do primeiro caracter até o 5
+frase[3:] // Imprime o terceiro até o ultimo
+
+len(frase) // Para contar a String
+frase.count("o") conta quantos caracteres "o" tem na String
+find() //Para prucurar algo na string
+''in // Verifica se uma frase esta na string
+replace('','') //Substituí o primeiro argumento pelo segundo
+upper() // Maiusculo
+lower() // Minusculo
+capitalize() // Primeira frase da string em Maiusculo
+title() // Primeira Letra Em Maisculo
+frase.strip() // Remove espaços no inicio e fim da string
+frase.rstrip() // Remove espaços da direita
+frase.lstrip() // Remove da esquerda
+
+Dividir Strings
+frase.split() // Divide como lista considerando os espaços
+''frase.join() // Junta se ouver espaço
+
+
 #OPERADORES ARITIMETICOS
 + Adição                ** Potencia
 - Subtração             // Divisão inteira
