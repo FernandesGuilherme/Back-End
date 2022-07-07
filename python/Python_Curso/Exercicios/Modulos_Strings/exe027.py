@@ -1,1 +1,0 @@
-#Crie um programa que leia um nome e mostre o primeiro e o ultimo nome da pessoa
