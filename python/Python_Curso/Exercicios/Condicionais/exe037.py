@@ -9,17 +9,19 @@ import re
 
 
 numero = int(input("Informe um número: "))
-
-print(""" 1 -   Binário")
+print(""" Opções para conversão 
+1 -   Binário")
 2 -   Octal
 3 -   Hexadecimal""")
 entrada = int(input(" Escolha a base de conversão "))
 
 if(entrada == 1 ):
-    while(entrada % 2 != 0):
-         print(entrada)
-
+    print(bin(entrada))
+elif (entrada == 2):
+    print(oct(entrada))
+elif(entrada == 3):
+    print(hex(entrada))
 else:
-    print("")
+    print("Opção inválida")
 
 

@@ -8,10 +8,11 @@ anoAtual = current_time.year
 
 AnoNascimento = int(input("Informe o ano em que você nasceu "))
 idade = anoAtual - AnoNascimento
+saldo = idade - 18
 
 if (idade < 18):
-    print("Ainda não está na hora de se alistar")
+    print("Ainda não está na hora de se alistar, faltam {} ano(s)".format(saldo))
 elif(idade == 18):
     print("Está na hora de se alistar")
 else:
-    print("Já passou da hora de se alistar soldado")
+    print("Já passou da hora de se alistar soldado, você está atrasado {} ano(s)".format(saldo))

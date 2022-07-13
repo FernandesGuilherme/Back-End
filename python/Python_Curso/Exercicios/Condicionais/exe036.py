@@ -8,13 +8,14 @@ valorCasa =  float(input("Informe o valor da casa a ser comprada: "))
 salario =  float(input("Informe o seu salário: "))
 anos =  int(input("Em quantos anos deseja pagar:  "))
 
-valorPrestacao = valorCasa / anos
-trintaPorCentoDosalario =  (salario * 0.30)
+valorPrestacao = float (valorCasa / (anos * 12))
+trintaPorCentoDosalario =  int ((salario * 0.3)) # salario * 30 / 100
+
+print("30% do salario é: ", trintaPorCentoDosalario)
 
 if(valorPrestacao > trintaPorCentoDosalario):
     print("Emprestimo negado")
-    print("O valor {}  excede 30% do seu salario que é {}".format(valorPrestacao, trintaPorCentoDosalario))
+    print("O valor {:.2f} excede 30% do seu salario que é {}".format(valorPrestacao, trintaPorCentoDosalario))
 else: 
     print("Emprestimo aprovado, você pagara: ")
-    print("{}R$, durante {} anos".format(valorPrestacao, anos))
-print(trintaPorCentoDosalario)
+    print("{:.3f}R$, durante {} anos".format(valorPrestacao, anos))
