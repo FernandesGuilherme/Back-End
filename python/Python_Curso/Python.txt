@@ -61,3 +61,23 @@ frase.split() // Divide como lista considerando os espaços
 / Divisão
 = Atribuição
 == Igualdade
+
+if condicao :
+    #codigo
+#codigo
+
+if condicao :
+   # codigo
+else :
+ #codigo
+
+
+if condicao :
+   # codigo
+elif condicao :
+    #codigo
+else :
+ #codigo
+
+ for c in range(6, 0, 2): inicio, fim, passo
+    print ("Oi")
