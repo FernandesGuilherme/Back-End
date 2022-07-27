@@ -81,3 +81,9 @@ else :
 
  for c in range(6, 0, 2): inicio, fim, passo
     print ("Oi")
+
+
+n = 1
+while n !=0:
+    n = int(input('Digite um valor: '))
+print('acabou ')
